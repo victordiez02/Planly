@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: plans_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: plans
+      POSTGRES_PASSWORD: plans
+      POSTGRES_DB: plans
+    ports:
+      - "5434:5432"
+    volumes:
+      - plans_pgdata:/var/lib/postgresql/data
+
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: plans_mailhog
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # Web UI
+
+volumes:
+  plans_pgdata:
