@@ -1,8 +1,22 @@
-# 🎲 Planly · Pequeños sorteos para grandes recuerdos
+<p align="center">
+  <img src="frontend/public/favicon.svg" alt="Planly" width="100" />
+</p>
 
-Aplicación web para **proponer planes en grupo** (parejas, amigos, familia) y dejar que **la suerte decida cada mes**. El día 1, Planly sortea uno o varios planes, los anuncia por email y los revela en la app con una animación tipo _cards stack_.
+<h1 align="center">Planly</h1>
 
-> Stack: **FastAPI + PostgreSQL** (backend) · **React + Vite + Tailwind + shadcn-style** (frontend) · **APScheduler** en local / **Cloud Scheduler** en prod · **Google OAuth** + modo dev · listo para desplegar en **Cloud Run + Supabase + Firebase Hosting + Resend**.
+<p align="center">
+  Aplicación web para <strong>proponer planes en grupo</strong> (parejas, amigos, familia) y dejar que <strong>la suerte decida cada mes</strong>. El día 1, Planly sortea uno o varios planes, los anuncia por email y los revela en la app con una animación tipo <em>cards stack</em>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20OAuth-Habilitado-4285F4?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Resend-Email-000000?logo=resend&logoColor=white" />
+</p>
 
 ---
 
